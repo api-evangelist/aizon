@@ -1,7 +1,17 @@
 aid: aizon
 name: Aizon
-description: Aizon is a company surfaced as a portfolio company of uncork-capital and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Aizon is a B2B SaaS manufacturing-intelligence platform for GxP pharmaceutical
+  manufacturers and CDMOs. It turns process data into AI-driven recommendations to
+  increase yield, reduce deviations, and prevent batch loss without replacing
+  existing MES, LIMS, ERP, or historian systems. The platform spans four connected
+  products: Aizon Execute (intelligent electronic batch records), Aizon Unify (a
+  GxP manufacturing data platform / lakehouse), Aizon Predict (operationalized ML
+  for yield optimization, CPV, and predictive quality), and Aizon Agentic Studio (a
+  natural-language application and dashboard builder). Aizon runs single-tenant on
+  AWS with ALCOA++ data integrity, 21 CFR Part 11 e-signatures, and a GxP model
+  lifecycle, and exposes a RESTful API to customers. Offices in San Francisco, USA
+  and Barcelona, Spain.
 url: https://raw.githubusercontent.com/api-evangelist/aizon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,31 @@ x-backed-by:
 - uncork-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://cdn.prod.website-files.com/66059e0331df02f19a296791/69b1436247ee4599e097fe41_AAAs%20logo%20-%20app%20image%20(4)%201.png
 tags:
 - Company
+- Pharmaceutical Manufacturing
+- Life Sciences
+- Artificial Intelligence
+- Machine Learning
+- Manufacturing Intelligence
+- GxP
+- Data Platform
+- Quality
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,30 @@ maintainers:
 common:
 - type: Website
   url: https://www.aizon.ai
+- type: Blog
+  url: https://www.aizon.ai/blog
+- type: Support
+  url: https://www.aizon.ai/contact
+- type: SignUp
+  url: https://www.aizon.ai/book-demo
+- type: PrivacyPolicy
+  url: https://www.aizon.ai/privacy-policy
+- type: TrustCenter
+  url: https://www.aizon.ai/trust-center
+- type: Compliance
+  url: https://www.aizon.ai/trust-center
+- type: LinkedIn
+  url: https://www.linkedin.com/company/aizon/
+- type: LLMsTxt
+  url: llms/aizon-llms.txt
+- type: TrustCenter
+  url: security/aizon-trust-center.yml
+- type: Conformance
+  url: conformance/aizon-conformance.yml
+- type: DomainSecurity
+  url: security/aizon-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

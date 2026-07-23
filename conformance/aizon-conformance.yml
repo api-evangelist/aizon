@@ -1,0 +1,48 @@
+generated: '2026-07-17'
+method: searched
+source: https://www.aizon.ai/trust-center
+note: >-
+  Aizon is a GxP pharmaceutical manufacturing intelligence SaaS. It publishes no
+  public OpenAPI, so cross-cutting API standards (oauth2/oidc/rfc9457/etc.) cannot
+  be verified. The standards below are the published security, quality, and
+  regulatory-compliance programs asserted on the Trust Center and llms.txt.
+standards:
+- id: soc2-type-2
+  conforms: true
+  evidence: SOC 2 listed on trust center
+- id: iso-27001
+  conforms: true
+  evidence: ISO 27001 information security management certification
+- id: iso-27017
+  conforms: true
+  evidence: ISO 27017 cloud security certification
+- id: iso-9001
+  conforms: true
+  evidence: ISO 9001 quality management certification
+- id: iso-42001
+  conforms: false
+  evidence: AI management system certification in progress, expected Q4 2026
+- id: fda-21-cfr-part-11
+  conforms: true
+  evidence: 21 CFR Part 11-compliant electronic signatures (llms.txt corporate/IT section)
+- id: eu-gmp-annex-11
+  conforms: true
+  evidence: EU GMP Annex 11 alignment
+- id: gamp-5
+  conforms: true
+  evidence: GAMP 5 risk-based validation approach
+- id: alcoa-plus-plus
+  conforms: true
+  evidence: data stamped and stored in ALCOA++-compliant format at point of capture
+- id: gdpr
+  conforms: true
+  evidence: GDPR compliance; European data sovereignty deployment available
+- id: hipaa
+  conforms: true
+  evidence: HIPAA compliance listed on trust center
+- id: nis2
+  conforms: true
+  evidence: NIS2 alignment listed on trust center
+- id: ich-q8-q12
+  conforms: true
+  evidence: aligned with ICH Q8-Q12 process/lifecycle guidance
