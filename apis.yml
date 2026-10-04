@@ -50,7 +50,7 @@ tags:
 - Pharmaceutical Manufacturing
 - Life Sciences
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Manufacturing Intelligence
 - GxP
 - Data Platform
@@ -65,6 +65,7 @@ tags_raw:
 - GxP
 - Data Platform
 - Quality
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
